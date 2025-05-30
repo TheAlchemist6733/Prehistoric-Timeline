@@ -51,7 +51,7 @@ def home():
 def cambrian():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=cambbg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Cambrian Period, the first geologic time period.")
@@ -64,7 +64,7 @@ def cambrian():
 def ordovician():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=ordobg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Ordovician Period, the second geologic time period.")
@@ -77,7 +77,7 @@ def ordovician():
 def silurian():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=silubg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Silurian Period, the third geologic time period.")
@@ -90,7 +90,7 @@ def silurian():
 def devonian():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=devobg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Devonian Period, the fourth geologic time period.")
@@ -103,7 +103,7 @@ def devonian():
 def carboniferous():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=carbbg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Carboniferous Period, the fifth geologic time period.")
@@ -116,7 +116,7 @@ def carboniferous():
 def permian():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=permbg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Permian Period, the sixth geologic time period.")
@@ -129,7 +129,7 @@ def permian():
 def triassic():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=triabg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Triassic Period, the seventh geologic time period.")
@@ -142,7 +142,7 @@ def triassic():
 def jurassic():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=jurabg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Jurassic Period, the eighth geologic time period.")
@@ -155,7 +155,7 @@ def jurassic():
 def cretaceous():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=cretbg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Cretaceous Period, the ninth geologic time period.")
@@ -168,7 +168,7 @@ def cretaceous():
 def paleogene():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=palebg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Palegene Period, the tenth geologic time period.")
@@ -181,7 +181,7 @@ def paleogene():
 def neogene():
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=neogbg)
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is the Neogene Period, the eleventh geologic time period.")
@@ -199,14 +199,14 @@ periods = [cambrian, ordovician, silurian, devonian, carboniferous, permian, tri
 def generalinfo(era):
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     title1 = canvas.create_text((1125//2), 300, font = ("Purisa", 16), text = geninfo[era], width = 600)
     tk.update()
 def animals(era):
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     img1 = canvas.create_image((1125//4), 150, anchor=N, image=animalspic[era][0])
     img2 = canvas.create_image((1125//2), 150, anchor=N, image=animalspic[era][1])
@@ -219,14 +219,14 @@ def map(era):
     canvas.delete("all")
     title1 = canvas.create_text((1125//2), 100, font = ("Purisa", 16), text = "This is what the Earth looked like during the "+ periods[era].__name__[0].upper() + periods[era].__name__[1:] + " period.")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     background = canvas.create_image((1125//2), 150, anchor=N, image=maps[era])
     tk.update()
 def climate(era):
     canvas.delete("all")
     backtext = canvas.create_text(30, 20, anchor = NW, font = ("Purisa", 24), text = " Return ")
-    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="black")
+    backbox = canvas.create_rectangle(canvas.bbox(backtext),fill="white")
     canvas.tag_lower(backbox,backtext)
     canvas.create_text((1125//2), 200, font = ("Purisa", 16), text = climateinfo[era], width = 400)
 
